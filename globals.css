@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.containr{
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width:1700px){
+  .containr{
+    width: 1600px;
+  }
+}
+
+.slick-prev,.slick-next{
+  display: none;
+}
+.slick-prev::before,.slick-next::before{
+  display: none;
+}
+
+.slick-slide{
+  width: 100px;
+  padding: 0px 10px;
+  background: transparent;
+}
+
+.ant-pagination-item a{
+  color: white !important;
+}
+.ant-pagination-item-active a{
+  color: blue !important;
+}
+
+.ant-pagination-item-link{
+  color: white !important;
+}
+
+.register label,.account label,.password label{
+  color: white !important;
+  font-size: 18px !important;
+}
+
+.register .ant-col{
+  text-align: left !important;
+}
+
+.account button,.password button{
+  background: rgba(22, 57, 199, 0.663);
+}
+
+.cart .ant-btn:hover{
+  color: black !important;
+  border-color: white !important;
+  transform: scale(1.01);
+}
+
+.booking .ant-btn:hover{
+  color: white !important;
+}
+ 
